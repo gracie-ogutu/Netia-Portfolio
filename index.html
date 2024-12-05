@@ -26,6 +26,33 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+    <style>
+  /* Style the "Download CV" button in the side menu */
+  .navmenu .side-cv-btn {
+    display: inline-flex; /* Allows icon and text alignment */
+    align-items: center; /* Centers the icon and text */
+    justify-content: center; /* Centers content in the button */
+    margin-top: 20px; /* Adds spacing from other items */
+    padding: 10px 15px; /* Adjusts button size */
+    color: white; /* Text color */
+    background-color: #007bff; /* Button background color */
+    border-radius: 50px; /* Rounded button style */
+    text-decoration: none; /* Removes underline */
+    font-size: 14px; /* Adjusts font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+
+  .navmenu .side-cv-btn i {
+    margin-right: 8px; /* Spacing between icon and text */
+    font-size: 16px; /* Icon size */
+  }
+
+  .navmenu .side-cv-btn:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    text-decoration: none; /* Ensures no underline on hover */
+  }
+</style>
+
 </head>
 
 <body class="index-page">
@@ -46,11 +73,20 @@
       <a href="#" class="behance"><i class="bi bi-behance"></i></a>
       <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
       <a href="#" class="google-plus"><i class="bi bi-github"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/darren-netia-videoeditor" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
+ <!-- Download CV Button -->
+        <li>
+          <a href="assets/resume/DARREN NETIA CURRICULUM VITAE New.docx (1).pdf" 
+            class="btn btn-primary rounded-btn side-cv-btn" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            <i class="bi bi-file-earmark-person-fill"></i> Download CV
+          </a>
+        </li>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
@@ -72,7 +108,7 @@
         <h2>Netia Darren</h2>
         <p>I'm a <span class="typed" data-typed-items="Designer, Developer, Photographer, Game Developer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
-
+    
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
@@ -221,11 +257,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/game-console-6603120_1280.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 1</h4>
+                  <h4>Game Dev</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/game-console-6603120_1280.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -233,11 +269,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/uiuxdesign.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <p>UI/UX Design</p>
+                  <a href="assets/img/portfolio/uiuxdesign.png" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -257,11 +293,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/spongepop.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 2</h4>
+                  <h4>Game dev</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/spongepop.png" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -293,11 +329,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/blend.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 3</h4>
+                  <h4>Game Dev</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/blend.png" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -401,7 +437,7 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Us</h3>
-                  <p>darrennetia75@gmail.com</p>
+                  <p>darrennetia75@gmal.com</p>
                 </div>
               </div><!-- End Info Item -->
 
